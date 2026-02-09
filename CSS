@@ -1,0 +1,137 @@
+body {
+    background: linear-gradient(135deg, #1e9a3700, #2e5cbf);
+    color: #672525;
+    display: flex;
+    min-height: 101vh;
+}
+
+.sidebar {
+    width: 286px;
+    padding: 30px 24px;
+    background: rgba(85, 73, 140, 0.54);
+    backdrop-filter: blur(20px);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.second {
+    background: rgba(230, 211, 232, 0.31);
+    padding: 9px;
+    border-radius: 20px;
+    border: 1px solid rgba(114, 50, 44, 0.34);
+    transition: 0.3s;
+    margin: 0%;
+    color: #611b50;
+}
+
+.menu a {
+    display: block;
+    padding: 14px 18px;
+    margin-bottom: -4px;
+    text-decoration: none;
+    color: #2e354a;
+    border-radius: 14px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 30px 50px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.profile {
+    width: 42px;
+    height: 42px;
+    border-radius: 212%;
+    background: linear-gradient(135deg, #040017, #6366f1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    padding: 0%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 9px;
+    border-radius: 20px;
+    border: 1px solid rgba(129, 49, 41, 0.34);
+    transition: 0.3s;
+    margin: 0%;
+
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+.card h3 {
+    font-size: 15px;
+    color: #2e5292;
+}
+
+.card p {
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.secondsection {
+    margin-top: 8%;
+    margin-bottom: 3%;
+    font-size: 10px;
+}
+
+.fa-solid {
+    margin-left: 87%;
+    font-size: 25px;
+}
+
+.six-box-section {
+    margin-top: 40px;
+}
+
+.six-box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.six-box {
+    background: #b0c0ff;
+    padding: 25px;
+    margin-top: 2px;
+    border-radius: 26px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(29, 10, 10, 0.51);
+    transition: transform 0.3s ease;
+}
+
+.six-box:hover {
+    transform: translateY(-5px);
+}
